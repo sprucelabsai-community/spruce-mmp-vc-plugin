@@ -1,0 +1,22 @@
+{
+  "scriptUpdater": {
+    "skipped": []
+  },
+  "skipped": [
+    "skill"
+  ],
+  "installed": [
+    "test",
+    "schema",
+    "permission",
+    "event",
+    "view",
+    "error"
+  ],
+  "dependencies": [
+    {
+      "id": "**",
+      "namespace": "heartwood"
+    }
+  ]
+}
