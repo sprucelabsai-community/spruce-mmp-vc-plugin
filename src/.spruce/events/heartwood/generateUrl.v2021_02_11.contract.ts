@@ -4,18 +4,18 @@ import generateUrlEmitTargetAndPayloadSchema from '#spruce/schemas/heartwood/v20
 import generateUrlResponsePayloadSchema from '#spruce/schemas/heartwood/v2021_02_11/generateUrlResponsePayload.schema'
 
 const generateUrlEventContract = buildEventContract({
-	eventSignatures: {
-		'heartwood.generate-url::v2021_02_11': {
-			isGlobal: true,
-			emitPermissions: {
-				contractId: 'heartwood.skill-views',
-				permissionIdsAny: ['can-generate-url'],
-			},
+    eventSignatures: {
+        'heartwood.generate-url::v2021_02_11': {
+            isGlobal: true,
+            emitPermissions: {
+                contractId: 'heartwood.skill-views',
+                permissionIdsAny: ['can-generate-url'],
+            },
 
-			emitPayloadSchema: generateUrlEmitTargetAndPayloadSchema,
-			responsePayloadSchema: generateUrlResponsePayloadSchema,
-		},
-	},
+            emitPayloadSchema: generateUrlEmitTargetAndPayloadSchema,
+            responsePayloadSchema: generateUrlResponsePayloadSchema,
+        },
+    },
 })
 export default generateUrlEventContract
 

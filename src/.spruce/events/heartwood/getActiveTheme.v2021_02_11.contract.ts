@@ -4,18 +4,18 @@ import getActiveThemeEmitTargetAndPayloadSchema from '#spruce/schemas/heartwood/
 import getActiveThemeResponsePayloadSchema from '#spruce/schemas/heartwood/v2021_02_11/getActiveThemeResponsePayload.schema'
 
 const getActiveThemeEventContract = buildEventContract({
-	eventSignatures: {
-		'heartwood.get-active-theme::v2021_02_11': {
-			isGlobal: true,
-			emitPermissions: {
-				contractId: 'heartwood.skill-views',
-				permissionIdsAny: ['can-get-active-theme'],
-			},
+    eventSignatures: {
+        'heartwood.get-active-theme::v2021_02_11': {
+            isGlobal: true,
+            emitPermissions: {
+                contractId: 'heartwood.skill-views',
+                permissionIdsAny: ['can-get-active-theme'],
+            },
 
-			emitPayloadSchema: getActiveThemeEmitTargetAndPayloadSchema,
-			responsePayloadSchema: getActiveThemeResponsePayloadSchema,
-		},
-	},
+            emitPayloadSchema: getActiveThemeEmitTargetAndPayloadSchema,
+            responsePayloadSchema: getActiveThemeResponsePayloadSchema,
+        },
+    },
 })
 export default getActiveThemeEventContract
 
