@@ -25,7 +25,7 @@ export default class AdjustMmpVcPlugin implements ViewControllerPlugin {
             ['appToken', 'environment']
         )
 
-        this.device.sendCommand('adjust_mmp_setup', {
+        this.device.sendCommand('mmp_setup:adjust', {
             appToken,
             env: environment,
         })
@@ -42,7 +42,7 @@ export default class AdjustMmpVcPlugin implements ViewControllerPlugin {
 
         assertOptions({ eventToken }, ['eventToken'])
 
-        this.device.sendCommand('adjust_mmp_track_event', {
+        this.device.sendCommand('mmp_track_event:adjust', {
             eventToken,
             ...options,
         })

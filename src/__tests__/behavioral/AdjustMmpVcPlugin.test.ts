@@ -35,7 +35,7 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
     @test()
     protected static async setupSendsExpectedCommandToDevice() {
         this.setup()
-        this.assertLastCommand('adjust_mmp_setup')
+        this.assertLastCommand('mmp_setup:adjust')
         assert.isEqualDeep(this.device.lastCommandPayload, {
             appToken: this.appToken,
             env: this.env,
@@ -91,7 +91,7 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
     }
 
     private static assertLastEventOptions(expected: AdjustTrackEventOptions) {
-        this.assertLastCommand('adjust_mmp_track_event', expected)
+        this.assertLastCommand('mmp_track_event:adjust', expected)
     }
 
     private static trackRandomEvent(options?: AdjustTrackEventOptions) {
