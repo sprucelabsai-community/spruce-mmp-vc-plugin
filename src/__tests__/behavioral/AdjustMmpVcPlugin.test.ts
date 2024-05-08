@@ -11,7 +11,7 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
     private static device: SpyDevice
     private static appToken: string
     private static env: string
-    private static lastEventToken: string
+    private static lastEventName: string
 
     public static async beforeEach() {
         await super.beforeEach()
@@ -55,7 +55,7 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
         //@ts-ignore
         const err = assert.doesThrow(() => this.plugin.trackEvent())
         errorAssert.assertError(err, 'MISSING_PARAMETERS', {
-            parameters: ['eventToken'],
+            parameters: ['eventName'],
         })
     }
 
@@ -95,17 +95,17 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
     }
 
     private static trackRandomEvent(options?: AdjustTrackEventOptions) {
-        const eventToken = generateId()
-        this.trackEvent(eventToken, options)
-        this.lastEventToken = eventToken
-        return eventToken
+        const eventName = generateId()
+        this.trackEvent(eventName, options)
+        this.lastEventName = eventName
+        return eventName
     }
 
     private static trackEvent(
-        eventToken: string,
+        eventName: string,
         options?: AdjustTrackEventOptions
     ) {
-        this.plugin.trackEvent(eventToken, options)
+        this.plugin.trackEvent(eventName, options)
     }
 
     private static assertLastCommandPayload(expected: Record<string, any>) {
@@ -119,7 +119,7 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
         assert.isEqual(this.device.lastCommand, expected)
         if (expectedPayload) {
             this.assertLastCommandPayload({
-                eventToken: this.lastEventToken,
+                eventName: this.lastEventName,
                 ...expectedPayload,
             })
         }

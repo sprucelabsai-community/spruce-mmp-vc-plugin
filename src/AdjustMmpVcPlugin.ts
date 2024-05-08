@@ -33,17 +33,17 @@ export default class AdjustMmpVcPlugin implements ViewControllerPlugin {
         this.isSetup = true
     }
 
-    public trackEvent(eventToken: string, options?: AdjustTrackEventOptions) {
+    public trackEvent(eventName: string, options?: AdjustTrackEventOptions) {
         if (!this.isSetup) {
             throw new SpruceError({
                 code: 'ADJUST_NOT_SETUP',
             })
         }
 
-        assertOptions({ eventToken }, ['eventToken'])
+        assertOptions({ eventName }, ['eventName'])
 
         this.device.sendCommand('mmp_track_event:adjust', {
-            eventToken,
+            eventName,
             ...options,
         })
     }
