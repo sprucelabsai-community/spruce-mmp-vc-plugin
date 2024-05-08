@@ -1,3 +1,10 @@
+# [2.0.0](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v1.0.3...v2.0.0) (2024-05-08)
+
+
+### Breaking Changes
+
+* eventToken+eventName ([4eb5897](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/4eb5897))
+
 ## [1.0.3](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v1.0.2...v1.0.3) (2024-05-08)
 
 ## [1.0.2](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v1.0.1...v1.0.2) (2024-05-08)
