@@ -1,3 +1,16 @@
+## [1.0.3](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v1.0.2...v1.0.3) (2024-05-08)
+
+## [1.0.2](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v1.0.1...v1.0.2) (2024-05-08)
+
+## [1.0.1](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v1.0.0...v1.0.1) (2024-05-08)
+
+# [1.0.0](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v0.0.9...v1.0.0) (2024-05-07)
+
+
+### Breaking Changes
+
+* message changes ([ce48202](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/ce48202))
+
 ## [0.0.9](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v0.0.8...v0.0.9) (2024-04-24)
 
 ## [0.0.8](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v0.0.7...v0.0.8) (2024-04-23)

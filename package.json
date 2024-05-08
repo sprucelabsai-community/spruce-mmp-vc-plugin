@@ -13,7 +13,7 @@
     "sprucebot",
     "sprucelabs"
   ],
-  "version": "0.0.9",
+  "version": "1.0.3",
   "scripts": {
     "build.ci": "yarn run build.tsc && yarn run build.resolve-paths && yarn run lint",
     "build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
@@ -41,18 +41,18 @@
     "watch.tsc": "tsc -w"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.11",
-    "@sprucelabs/jest-json-reporter": "^8.0.11",
+    "@sprucelabs/esm-postbuild": "^6.0.17",
+    "@sprucelabs/jest-json-reporter": "^8.0.21",
     "@sprucelabs/jest-sheets-reporter": "^3.0.26",
-    "@sprucelabs/resolve-path-aliases": "^2.0.13",
+    "@sprucelabs/resolve-path-aliases": "^2.0.17",
     "@sprucelabs/semantic-release": "^5.0.1",
-    "@sprucelabs/spruce-test-fixtures": "^62.0.2",
-    "@sprucelabs/test": "^9.0.9",
-    "@sprucelabs/test-utils": "^5.0.10",
-    "@types/node": "^20.12.7",
+    "@sprucelabs/spruce-test-fixtures": "^62.0.31",
+    "@sprucelabs/test": "^9.0.12",
+    "@sprucelabs/test-utils": "^5.0.22",
+    "@types/node": "^20.12.11",
     "chokidar-cli": "^3.0.0",
-    "eslint": "^9.1.1",
-    "eslint-config-spruce": "^11.2.13",
+    "eslint": "^9.2.0",
+    "eslint-config-spruce": "^11.2.15",
     "jest": "^29.7.0",
     "jest-circus": "^29.7.0",
     "prettier": "^3.2.5",
@@ -83,17 +83,17 @@
     }
   },
   "dependencies": {
-    "@sprucelabs/error": "^6.0.11",
-    "@sprucelabs/heartwood-view-controllers": "^110.0.4",
-    "@sprucelabs/mercury-client": "^42.0.11",
-    "@sprucelabs/mercury-core-events": "^24.0.6",
-    "@sprucelabs/mercury-types": "^47.0.11",
-    "@sprucelabs/schema": "^30.0.15",
-    "@sprucelabs/spruce-core-schemas": "^40.0.11",
-    "@sprucelabs/spruce-event-plugin": "^62.0.2",
-    "@sprucelabs/spruce-event-utils": "^40.0.11",
-    "@sprucelabs/spruce-permission-plugin": "^31.0.7",
-    "@sprucelabs/spruce-skill-utils": "^31.0.15",
-    "@sprucelabs/spruce-view-plugin": "^47.0.8"
+    "@sprucelabs/error": "^6.0.19",
+    "@sprucelabs/heartwood-view-controllers": "^110.0.40",
+    "@sprucelabs/mercury-client": "^42.0.39",
+    "@sprucelabs/mercury-core-events": "^24.0.33",
+    "@sprucelabs/mercury-types": "^47.0.28",
+    "@sprucelabs/schema": "^30.0.31",
+    "@sprucelabs/spruce-core-schemas": "^40.0.25",
+    "@sprucelabs/spruce-event-plugin": "^62.0.31",
+    "@sprucelabs/spruce-event-utils": "^40.0.30",
+    "@sprucelabs/spruce-permission-plugin": "^31.0.50",
+    "@sprucelabs/spruce-skill-utils": "^31.0.33",
+    "@sprucelabs/spruce-view-plugin": "^47.0.48"
   }
 }
