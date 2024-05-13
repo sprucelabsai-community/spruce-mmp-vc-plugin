@@ -94,6 +94,6 @@
     "@sprucelabs/spruce-event-utils": "^40.0.43",
     "@sprucelabs/spruce-permission-plugin": "^31.0.71",
     "@sprucelabs/spruce-skill-utils": "^31.0.45",
-    "@sprucelabs/spruce-view-plugin": "^47.0.69"
+    "@sprucelabs/spruce-view-plugin": "^47.0.70"
   }
 }
