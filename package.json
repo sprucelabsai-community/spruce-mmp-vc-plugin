@@ -1,5 +1,5 @@
 {
-  "name": "@sprucelabs/mmp-vc-plugin",
+  "name": "@sprucelabs/spruce-mmp-vc-plugin",
   "files": [
     "build"
   ],
