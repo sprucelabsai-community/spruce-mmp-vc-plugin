@@ -1,13 +1,20 @@
 import { ViewControllerPlugin } from '@sprucelabs/heartwood-view-controllers'
 import { assert } from '@sprucelabs/test-utils'
-import { AdjustMmpVcPluginSetupOptions } from './AdjustMmpVcPlugin'
+import AdjustMmpVcPlugin, {
+    AdjustMmpVcPluginSetupOptions,
+} from './AdjustMmpVcPlugin'
 import { MmpVcPlugin } from './mmp.types'
 
 export default class MockAdjustMmpVcPlugin
+    extends AdjustMmpVcPlugin
     implements
         ViewControllerPlugin,
         MmpVcPlugin<Record<string, any>, Record<string, any>>
 {
+    public constructor() {
+        super({} as any)
+    }
+
     private lastSetupOptions?: Record<string, any>
     private lastTrackedEvent?: {
         eventName: string
