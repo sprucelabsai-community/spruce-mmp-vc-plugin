@@ -1,9 +1,7 @@
-import { fake } from '@sprucelabs/spruce-test-fixtures'
 import { AbstractSpruceFixtureTest } from '@sprucelabs/spruce-test-fixtures'
 import { test, assert } from '@sprucelabs/test-utils'
 import mmpAssert from '../../mmpAssert'
 
-@fake.login()
 export default class MmpAssertThrowsUnlessBeforeEachTest extends AbstractSpruceFixtureTest {
     @test()
     protected static async setupThrowsWhenNoBeforeEachCalled() {
