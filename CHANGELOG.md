@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v2.0.123...v2.1.0) (2024-06-17)
+
+
+### Features
+
+* mmpAssert util ([d75acde](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/d75acde))
+
 ## [2.0.123](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v2.0.122...v2.0.123) (2024-06-17)
 
 ## [2.0.122](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v2.0.121...v2.0.122) (2024-06-17)
