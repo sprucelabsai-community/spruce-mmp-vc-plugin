@@ -2,7 +2,6 @@ import {
     AbstractSkillViewController,
     SpruceSchemas,
 } from '@sprucelabs/heartwood-view-controllers'
-import { fake } from '@sprucelabs/spruce-test-fixtures'
 import { AbstractSpruceFixtureTest } from '@sprucelabs/spruce-test-fixtures'
 import { test, assert, errorAssert, generateId } from '@sprucelabs/test-utils'
 import AdjustMmpVcPlugin, {
@@ -14,7 +13,6 @@ import mmpAssert, {
     PluginIsSetupOptions,
 } from '../../mmpAssert'
 
-@fake.login()
 export default class AssertingMmpPluginTest extends AbstractSpruceFixtureTest {
     private static vc: MmpTestViewController
     protected static async beforeEach() {
