@@ -1,1 +1,5 @@
 export { default as AdjustMmpVcPlugin } from './AdjustMmpVcPlugin'
+export * from './AdjustMmpVcPlugin'
+export * from 'mmp.types'
+export { default as mmpAssert } from './mmpAssert'
+export * from './mmpAssert'

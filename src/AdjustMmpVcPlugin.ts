@@ -5,25 +5,26 @@ import {
 } from '@sprucelabs/heartwood-view-controllers'
 import { assertOptions } from '@sprucelabs/schema'
 import SpruceError from './errors/SpruceError'
+import { MmpVcPlugin } from './mmp.types'
 
-export default class AdjustMmpVcPlugin implements ViewControllerPlugin {
+export default class AdjustMmpVcPlugin
+    implements
+        ViewControllerPlugin,
+        MmpVcPlugin<AdjustMmpVcPluginSetupOptions, AdjustTrackEventOptions>
+{
     private device: Device
     private isSetup = false
 
     public constructor(options: ViewControllerPluginOptions) {
         const { device } = options
-
         this.device = device
     }
 
-    public setup(appToken: string, environment: string) {
-        assertOptions(
-            {
-                appToken,
-                environment,
-            },
-            ['appToken', 'environment']
-        )
+    public setup(options: AdjustMmpVcPluginSetupOptions) {
+        const { appToken, environment } = assertOptions(options, [
+            'appToken',
+            'environment',
+        ])
 
         this.device.sendCommand('mmp_setup:adjust', {
             appToken,
@@ -48,6 +49,7 @@ export default class AdjustMmpVcPlugin implements ViewControllerPlugin {
         })
     }
 }
+
 export interface AdjustTrackEventOptions {
     revenue?: {
         amount: number
@@ -55,4 +57,9 @@ export interface AdjustTrackEventOptions {
     }
     transationId?: string
     productId?: string
+}
+
+export interface AdjustMmpVcPluginSetupOptions {
+    appToken: string
+    environment: string
 }

@@ -126,6 +126,6 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
     }
 
     private static setup() {
-        this.plugin.setup(this.appToken, this.env)
+        this.plugin.setup({ appToken: this.appToken, environment: this.env })
     }
 }
