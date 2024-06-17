@@ -13,7 +13,7 @@
     "sprucebot",
     "sprucelabs"
   ],
-  "version": "2.1.1",
+  "version": "2.1.2",
   "scripts": {
     "build.ci": "yarn run build.tsc && yarn run build.resolve-paths && yarn run lint",
     "build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
@@ -43,7 +43,7 @@
   "devDependencies": {
     "@sprucelabs/esm-postbuild": "^6.0.42",
     "@sprucelabs/jest-json-reporter": "^8.0.61",
-    "@sprucelabs/jest-sheets-reporter": "^3.0.26",
+    "@sprucelabs/jest-sheets-reporter": "^3.0.28",
     "@sprucelabs/resolve-path-aliases": "^2.0.40",
     "@sprucelabs/semantic-release": "^5.0.1",
     "@sprucelabs/spruce-test-fixtures": "^62.2.3",
@@ -52,7 +52,7 @@
     "@types/node": "^20.14.2",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.5.0",
-    "eslint-config-spruce": "^11.2.23",
+    "eslint-config-spruce": "^11.2.24",
     "jest": "^29.7.0",
     "jest-circus": "^29.7.0",
     "prettier": "^3.3.2",
@@ -85,7 +85,7 @@
   "dependencies": {
     "@sprucelabs/error": "^6.0.55",
     "@sprucelabs/heartwood-view-controllers": "^110.4.21",
-    "@sprucelabs/mercury-client": "^42.0.129",
+    "@sprucelabs/mercury-client": "^42.0.130",
     "@sprucelabs/mercury-core-events": "^24.0.122",
     "@sprucelabs/mercury-types": "^47.0.97",
     "@sprucelabs/schema": "^30.0.98",
