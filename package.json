@@ -46,9 +46,9 @@
     "@sprucelabs/jest-sheets-reporter": "^3.0.30",
     "@sprucelabs/resolve-path-aliases": "^2.0.41",
     "@sprucelabs/semantic-release": "^5.0.1",
-    "@sprucelabs/spruce-test-fixtures": "^62.2.8",
+    "@sprucelabs/spruce-test-fixtures": "^62.2.9",
     "@sprucelabs/test": "^9.0.29",
-    "@sprucelabs/test-utils": "^5.0.88",
+    "@sprucelabs/test-utils": "^5.0.89",
     "@types/node": "^20.14.5",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.5.0",
@@ -83,17 +83,17 @@
     }
   },
   "dependencies": {
-    "@sprucelabs/error": "^6.0.58",
-    "@sprucelabs/heartwood-view-controllers": "^110.4.25",
-    "@sprucelabs/mercury-client": "^42.0.134",
-    "@sprucelabs/mercury-core-events": "^24.0.126",
-    "@sprucelabs/mercury-types": "^47.0.101",
-    "@sprucelabs/schema": "^30.0.102",
-    "@sprucelabs/spruce-core-schemas": "^40.1.42",
-    "@sprucelabs/spruce-event-plugin": "^62.2.8",
-    "@sprucelabs/spruce-event-utils": "^40.0.111",
-    "@sprucelabs/spruce-permission-plugin": "^31.0.174",
-    "@sprucelabs/spruce-skill-utils": "^31.0.113",
-    "@sprucelabs/spruce-view-plugin": "^47.0.177"
+    "@sprucelabs/error": "^6.0.59",
+    "@sprucelabs/heartwood-view-controllers": "^110.4.26",
+    "@sprucelabs/mercury-client": "^42.0.135",
+    "@sprucelabs/mercury-core-events": "^24.0.127",
+    "@sprucelabs/mercury-types": "^47.0.102",
+    "@sprucelabs/schema": "^30.0.103",
+    "@sprucelabs/spruce-core-schemas": "^40.1.43",
+    "@sprucelabs/spruce-event-plugin": "^62.2.9",
+    "@sprucelabs/spruce-event-utils": "^40.0.112",
+    "@sprucelabs/spruce-permission-plugin": "^31.0.175",
+    "@sprucelabs/spruce-skill-utils": "^31.0.114",
+    "@sprucelabs/spruce-view-plugin": "^47.0.178"
   }
 }
