@@ -28,7 +28,7 @@ export default class AdjustMmpVcPlugin
 
         this.device.sendCommand('mmp_setup:adjust', {
             appToken,
-            env: environment,
+            environment,
         })
 
         this.isSetup = true

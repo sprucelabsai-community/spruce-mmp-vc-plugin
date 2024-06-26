@@ -38,7 +38,7 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
         this.assertLastCommand('mmp_setup:adjust')
         assert.isEqualDeep(this.device.lastCommandPayload, {
             appToken: this.appToken,
-            env: this.env,
+            environment: this.env,
         })
     }
 
