@@ -41,14 +41,14 @@
     "watch.tsc": "tsc -w"
   },
   "devDependencies": {
-    "@sprucelabs/esm-postbuild": "^6.0.137",
-    "@sprucelabs/jest-json-reporter": "^8.0.155",
-    "@sprucelabs/jest-sheets-reporter": "^3.0.85",
-    "@sprucelabs/resolve-path-aliases": "^2.0.133",
+    "@sprucelabs/esm-postbuild": "^6.0.138",
+    "@sprucelabs/jest-json-reporter": "^8.0.156",
+    "@sprucelabs/jest-sheets-reporter": "^3.0.86",
+    "@sprucelabs/resolve-path-aliases": "^2.0.134",
     "@sprucelabs/semantic-release": "^5.0.2",
-    "@sprucelabs/spruce-test-fixtures": "^62.2.99",
+    "@sprucelabs/spruce-test-fixtures": "^62.2.100",
     "@sprucelabs/test": "^9.0.38",
-    "@sprucelabs/test-utils": "^5.1.87",
+    "@sprucelabs/test-utils": "^5.1.88",
     "@types/node": "^20.14.11",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.7.0",
@@ -83,17 +83,17 @@
     }
   },
   "dependencies": {
-    "@sprucelabs/error": "^6.0.152",
-    "@sprucelabs/heartwood-view-controllers": "^110.8.33",
+    "@sprucelabs/error": "^6.0.153",
+    "@sprucelabs/heartwood-view-controllers": "^110.8.34",
     "@sprucelabs/mercury-client": "^42.0.237",
-    "@sprucelabs/mercury-core-events": "^24.0.228",
-    "@sprucelabs/mercury-types": "^47.0.201",
-    "@sprucelabs/schema": "^30.0.199",
-    "@sprucelabs/spruce-core-schemas": "^40.1.144",
-    "@sprucelabs/spruce-event-plugin": "^62.2.99",
-    "@sprucelabs/spruce-event-utils": "^40.0.214",
-    "@sprucelabs/spruce-permission-plugin": "^31.0.282",
-    "@sprucelabs/spruce-skill-utils": "^31.0.215",
-    "@sprucelabs/spruce-view-plugin": "^47.0.284"
+    "@sprucelabs/mercury-core-events": "^24.0.229",
+    "@sprucelabs/mercury-types": "^47.0.202",
+    "@sprucelabs/schema": "^30.0.200",
+    "@sprucelabs/spruce-core-schemas": "^40.1.145",
+    "@sprucelabs/spruce-event-plugin": "^62.2.100",
+    "@sprucelabs/spruce-event-utils": "^40.0.215",
+    "@sprucelabs/spruce-permission-plugin": "^31.0.283",
+    "@sprucelabs/spruce-skill-utils": "^31.0.216",
+    "@sprucelabs/spruce-view-plugin": "^47.0.285"
   }
 }
