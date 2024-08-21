@@ -13,7 +13,7 @@
     "sprucebot",
     "sprucelabs"
   ],
-  "version": "2.1.205",
+  "version": "2.1.206",
   "scripts": {
     "build.ci": "yarn run build.tsc && yarn run build.resolve-paths && yarn run lint",
     "build.copy-files": "mkdir -p build && rsync -avzq --exclude='*.ts' ./src/ ./build/",
