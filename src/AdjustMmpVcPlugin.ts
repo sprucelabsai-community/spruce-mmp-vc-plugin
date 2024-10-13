@@ -4,7 +4,7 @@ import {
     ViewControllerPluginOptions,
 } from '@sprucelabs/heartwood-view-controllers'
 import { assertOptions } from '@sprucelabs/schema'
-import SpruceError from './errors/SpruceError'
+import { buildLog } from '@sprucelabs/spruce-skill-utils'
 import { MmpVcPlugin } from './mmp.types'
 
 export default class AdjustMmpVcPlugin
@@ -14,6 +14,7 @@ export default class AdjustMmpVcPlugin
 {
     private device: Device
     private isSetup = false
+    private log = buildLog('AdjustMmpVcPlugin')
 
     public constructor(options: ViewControllerPluginOptions) {
         const { device } = options
@@ -25,7 +26,6 @@ export default class AdjustMmpVcPlugin
             'appToken',
             'environment',
         ])
-
         this.device.sendCommand('mmp_setup:adjust', {
             appToken,
             environment,
@@ -36,9 +36,8 @@ export default class AdjustMmpVcPlugin
 
     public trackEvent(eventName: string, options?: AdjustTrackEventOptions) {
         if (!this.isSetup) {
-            throw new SpruceError({
-                code: 'ADJUST_NOT_SETUP',
-            })
+            this.log.warn('AdjustMmpVcPlugin not setup, skipping trackEvent')
+            return
         }
 
         assertOptions({ eventName }, ['eventName'])

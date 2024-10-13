@@ -43,10 +43,10 @@ export default class AdjustMmpVcPluginTest extends AbstractSpruceFixtureTest {
     }
 
     @test()
-    protected static async trackEventThrowsIfNotSetup() {
+    protected static async doesNotTrackIfNotSetup() {
         //@ts-ignore
-        const err = assert.doesThrow(() => this.plugin.trackEvent())
-        errorAssert.assertError(err, 'ADJUST_NOT_SETUP')
+        this.plugin.trackEvent(generateId())
+        assert.isFalsy(this.device.lastCommand)
     }
 
     @test()
