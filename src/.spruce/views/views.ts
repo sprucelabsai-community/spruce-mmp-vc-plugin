@@ -34,7 +34,7 @@ declare module '@sprucelabs/heartwood-view-controllers/build/types/heartwood.typ
 //@ts-ignore
 if(typeof heartwood === 'function') { 
 	//@ts-ignore
-	heartwood(vcs, pluginsByName) 
+	heartwood({ vcs, pluginsByName }) 
 }
 
 export default vcs
