@@ -83,7 +83,7 @@
   },
   "dependencies": {
     "@sprucelabs/error": "^6.0.538",
-    "@sprucelabs/heartwood-view-controllers": "^111.1.17",
+    "@sprucelabs/heartwood-view-controllers": "^111.1.18",
     "@sprucelabs/mercury-client": "^42.0.597",
     "@sprucelabs/mercury-core-events": "^25.0.41",
     "@sprucelabs/mercury-types": "^47.0.596",
@@ -91,8 +91,8 @@
     "@sprucelabs/spruce-core-schemas": "^40.1.542",
     "@sprucelabs/spruce-event-plugin": "^62.4.19",
     "@sprucelabs/spruce-event-utils": "^40.1.318",
-    "@sprucelabs/spruce-permission-plugin": "^31.1.19",
+    "@sprucelabs/spruce-permission-plugin": "^31.1.20",
     "@sprucelabs/spruce-skill-utils": "^31.0.618",
-    "@sprucelabs/spruce-view-plugin": "^47.1.20"
+    "@sprucelabs/spruce-view-plugin": "^47.1.21"
   }
 }
