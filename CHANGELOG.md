@@ -1,3 +1,5 @@
+## [2.1.574](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v2.1.573...v2.1.574) (2025-01-30)
+
 ## [2.1.573](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v2.1.572...v2.1.573) (2025-01-30)
 
 ## [2.1.572](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v2.1.571...v2.1.572) (2025-01-30)
