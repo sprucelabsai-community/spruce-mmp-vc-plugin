@@ -183,6 +183,49 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 	namespace SpruceSchemas.Heartwood.v2021_02_11 {
 
 		
+		interface GenerateUrlEmitTargetAndPayload {
+			
+				/** Source. */
+				'source'?: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSource | undefined | null
+				
+				'target'?: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitTarget | undefined | null
+				
+				'payload'?: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitPayload | undefined | null
+		}
+
+		interface GenerateUrlEmitTargetAndPayloadSchema extends SpruceSchema.Schema {
+			id: 'generateUrlEmitTargetAndPayload',
+			version: 'v2021_02_11',
+			namespace: 'Heartwood',
+			name: '',
+			    fields: {
+			            /** Source. */
+			            'source': {
+			                label: 'Source',
+			                type: 'schema',
+			                options: {schema: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSourceSchema,}
+			            },
+			            /** . */
+			            'target': {
+			                type: 'schema',
+			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitTargetSchema,}
+			            },
+			            /** . */
+			            'payload': {
+			                type: 'schema',
+			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitPayloadSchema,}
+			            },
+			    }
+		}
+
+		interface GenerateUrlEmitTargetAndPayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitTargetAndPayloadSchema> {}
+
+	}
+
+
+	namespace SpruceSchemas.Heartwood.v2021_02_11 {
+
+		
 		interface GenerateUrlResponsePayload {
 			
 				/** Url. */
@@ -300,35 +343,6 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 		}
 
 		interface GetActiveThemeResponsePayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.GetActiveThemeResponsePayloadSchema> {}
-
-	}
-
-
-	namespace SpruceSchemas.Heartwood.v2021_02_11 {
-
-		
-		interface UpsertThemeResponsePayload {
-			
-				
-				'theme': SpruceSchemas.Heartwood.v2021_02_11.Theme
-		}
-
-		interface UpsertThemeResponsePayloadSchema extends SpruceSchema.Schema {
-			id: 'upsertThemeResponsePayload',
-			version: 'v2021_02_11',
-			namespace: 'Heartwood',
-			name: '',
-			    fields: {
-			            /** . */
-			            'theme': {
-			                type: 'schema',
-			                isRequired: true,
-			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.ThemeSchema,}
-			            },
-			    }
-		}
-
-		interface UpsertThemeResponsePayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeResponsePayloadSchema> {}
 
 	}
 
@@ -576,6 +590,43 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 	namespace SpruceSchemas.Heartwood.v2021_02_11 {
 
 		
+		interface RegisterSkillViewsEmitTargetAndPayload {
+			
+				/** Source. */
+				'source'?: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSource | undefined | null
+				
+				'payload': SpruceSchemas.Heartwood.v2021_02_11.RegisterSkillViewsEmitPayload
+		}
+
+		interface RegisterSkillViewsEmitTargetAndPayloadSchema extends SpruceSchema.Schema {
+			id: 'registerSkillViewsEmitTargetAndPayload',
+			version: 'v2021_02_11',
+			namespace: 'Heartwood',
+			name: '',
+			    fields: {
+			            /** Source. */
+			            'source': {
+			                label: 'Source',
+			                type: 'schema',
+			                options: {schema: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSourceSchema,}
+			            },
+			            /** . */
+			            'payload': {
+			                type: 'schema',
+			                isRequired: true,
+			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.RegisterSkillViewsEmitPayloadSchema,}
+			            },
+			    }
+		}
+
+		interface RegisterSkillViewsEmitTargetAndPayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.RegisterSkillViewsEmitTargetAndPayloadSchema> {}
+
+	}
+
+
+	namespace SpruceSchemas.Heartwood.v2021_02_11 {
+
+		
 		interface RegisterSkillViewsEmitPayload {
 			
 				
@@ -627,43 +678,6 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 	namespace SpruceSchemas.Heartwood.v2021_02_11 {
 
 		
-		interface RegisterSkillViewsEmitTargetAndPayload {
-			
-				/** Source. */
-				'source'?: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSource | undefined | null
-				
-				'payload': SpruceSchemas.Heartwood.v2021_02_11.RegisterSkillViewsEmitPayload
-		}
-
-		interface RegisterSkillViewsEmitTargetAndPayloadSchema extends SpruceSchema.Schema {
-			id: 'registerSkillViewsEmitTargetAndPayload',
-			version: 'v2021_02_11',
-			namespace: 'Heartwood',
-			name: '',
-			    fields: {
-			            /** Source. */
-			            'source': {
-			                label: 'Source',
-			                type: 'schema',
-			                options: {schema: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSourceSchema,}
-			            },
-			            /** . */
-			            'payload': {
-			                type: 'schema',
-			                isRequired: true,
-			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.RegisterSkillViewsEmitPayloadSchema,}
-			            },
-			    }
-		}
-
-		interface RegisterSkillViewsEmitTargetAndPayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.RegisterSkillViewsEmitTargetAndPayloadSchema> {}
-
-	}
-
-
-	namespace SpruceSchemas.Heartwood.v2021_02_11 {
-
-		
 		interface RegisterSkillViewsResponsePayload {
 			
 				/** . Views that were registered. Will match the number of ids you sent. */
@@ -694,49 +708,6 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 	namespace SpruceSchemas.Heartwood.v2021_02_11 {
 
 		
-		interface GenerateUrlEmitTargetAndPayload {
-			
-				/** Source. */
-				'source'?: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSource | undefined | null
-				
-				'target'?: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitTarget | undefined | null
-				
-				'payload'?: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitPayload | undefined | null
-		}
-
-		interface GenerateUrlEmitTargetAndPayloadSchema extends SpruceSchema.Schema {
-			id: 'generateUrlEmitTargetAndPayload',
-			version: 'v2021_02_11',
-			namespace: 'Heartwood',
-			name: '',
-			    fields: {
-			            /** Source. */
-			            'source': {
-			                label: 'Source',
-			                type: 'schema',
-			                options: {schema: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSourceSchema,}
-			            },
-			            /** . */
-			            'target': {
-			                type: 'schema',
-			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitTargetSchema,}
-			            },
-			            /** . */
-			            'payload': {
-			                type: 'schema',
-			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitPayloadSchema,}
-			            },
-			    }
-		}
-
-		interface GenerateUrlEmitTargetAndPayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.GenerateUrlEmitTargetAndPayloadSchema> {}
-
-	}
-
-
-	namespace SpruceSchemas.Heartwood.v2021_02_11 {
-
-		
 		interface UpsertThemeEmitTarget {
 			
 				
@@ -759,6 +730,51 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 		}
 
 		interface UpsertThemeEmitTargetEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitTargetSchema> {}
+
+	}
+
+
+	namespace SpruceSchemas.Heartwood.v2021_02_11 {
+
+		
+		interface UpsertThemeEmitTargetAndPayload {
+			
+				/** Source. */
+				'source'?: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSource | undefined | null
+				
+				'target': SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitTarget
+				
+				'payload': SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitPayload
+		}
+
+		interface UpsertThemeEmitTargetAndPayloadSchema extends SpruceSchema.Schema {
+			id: 'upsertThemeEmitTargetAndPayload',
+			version: 'v2021_02_11',
+			namespace: 'Heartwood',
+			name: '',
+			    fields: {
+			            /** Source. */
+			            'source': {
+			                label: 'Source',
+			                type: 'schema',
+			                options: {schema: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSourceSchema,}
+			            },
+			            /** . */
+			            'target': {
+			                type: 'schema',
+			                isRequired: true,
+			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitTargetSchema,}
+			            },
+			            /** . */
+			            'payload': {
+			                type: 'schema',
+			                isRequired: true,
+			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitPayloadSchema,}
+			            },
+			    }
+		}
+
+		interface UpsertThemeEmitTargetAndPayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitTargetAndPayloadSchema> {}
 
 	}
 
@@ -840,44 +856,28 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 	namespace SpruceSchemas.Heartwood.v2021_02_11 {
 
 		
-		interface UpsertThemeEmitTargetAndPayload {
+		interface UpsertThemeResponsePayload {
 			
-				/** Source. */
-				'source'?: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSource | undefined | null
 				
-				'target': SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitTarget
-				
-				'payload': SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitPayload
+				'theme': SpruceSchemas.Heartwood.v2021_02_11.Theme
 		}
 
-		interface UpsertThemeEmitTargetAndPayloadSchema extends SpruceSchema.Schema {
-			id: 'upsertThemeEmitTargetAndPayload',
+		interface UpsertThemeResponsePayloadSchema extends SpruceSchema.Schema {
+			id: 'upsertThemeResponsePayload',
 			version: 'v2021_02_11',
 			namespace: 'Heartwood',
 			name: '',
 			    fields: {
-			            /** Source. */
-			            'source': {
-			                label: 'Source',
-			                type: 'schema',
-			                options: {schema: SpruceSchemas.SpruceEventUtils.v2021_09_13.EventSourceSchema,}
-			            },
 			            /** . */
-			            'target': {
+			            'theme': {
 			                type: 'schema',
 			                isRequired: true,
-			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitTargetSchema,}
-			            },
-			            /** . */
-			            'payload': {
-			                type: 'schema',
-			                isRequired: true,
-			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitPayloadSchema,}
+			                options: {schema: SpruceSchemas.Heartwood.v2021_02_11.ThemeSchema,}
 			            },
 			    }
 		}
 
-		interface UpsertThemeEmitTargetAndPayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeEmitTargetAndPayloadSchema> {}
+		interface UpsertThemeResponsePayloadEntity extends SchemaEntity<SpruceSchemas.Heartwood.v2021_02_11.UpsertThemeResponsePayloadSchema> {}
 
 	}
 
