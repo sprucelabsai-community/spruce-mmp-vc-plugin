@@ -1,3 +1,10 @@
+# [6.0.0](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v5.0.9...v6.0.0) (2025-07-17)
+
+
+### Breaking Changes
+
+* upgrade ([74c9c1d](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/74c9c1d))
+
 ## [5.0.9](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v5.0.8...v5.0.9) (2025-07-15)
 
 ## [5.0.8](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v5.0.7...v5.0.8) (2025-07-15)
