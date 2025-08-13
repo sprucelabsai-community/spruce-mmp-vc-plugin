@@ -1,3 +1,10 @@
+# [10.0.0](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v9.0.26...v10.0.0) (2025-08-13)
+
+
+### Breaking Changes
+
+* upgrade ([9d90511](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/9d90511))
+
 ## [9.0.26](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v9.0.25...v9.0.26) (2025-08-12)
 
 ## [9.0.25](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v9.0.24...v9.0.25) (2025-08-12)
