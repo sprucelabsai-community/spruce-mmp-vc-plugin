@@ -48,7 +48,7 @@
     "@sprucelabs/spruce-test-fixtures": "^74.1.7",
     "@sprucelabs/test": "^10.0.20",
     "@sprucelabs/test-utils": "^6.0.74",
-    "@types/node": "^24.3.1",
+    "@types/node": "^24.3.2",
     "chokidar-cli": "^3.0.0",
     "eslint": "^9.35.0",
     "eslint-config-spruce": "^11.2.26",
@@ -83,7 +83,7 @@
   },
   "dependencies": {
     "@sprucelabs/error": "^7.1.14",
-    "@sprucelabs/heartwood-view-controllers": "^126.7.12",
+    "@sprucelabs/heartwood-view-controllers": "^126.7.13",
     "@sprucelabs/mercury-client": "^43.0.122",
     "@sprucelabs/mercury-core-events": "^27.0.111",
     "@sprucelabs/mercury-types": "^48.0.87",
@@ -91,8 +91,8 @@
     "@sprucelabs/spruce-core-schemas": "^41.1.2",
     "@sprucelabs/spruce-event-plugin": "^74.1.7",
     "@sprucelabs/spruce-event-utils": "^41.0.99",
-    "@sprucelabs/spruce-permission-plugin": "^45.0.46",
+    "@sprucelabs/spruce-permission-plugin": "^45.0.47",
     "@sprucelabs/spruce-skill-utils": "^32.0.93",
-    "@sprucelabs/spruce-view-plugin": "^59.0.45"
+    "@sprucelabs/spruce-view-plugin": "^59.0.46"
   }
 }
