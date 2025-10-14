@@ -91,8 +91,8 @@
     "@sprucelabs/spruce-core-schemas": "^41.3.18",
     "@sprucelabs/spruce-event-plugin": "^74.2.0",
     "@sprucelabs/spruce-event-utils": "^41.0.138",
-    "@sprucelabs/spruce-permission-plugin": "^45.0.105",
+    "@sprucelabs/spruce-permission-plugin": "^45.0.106",
     "@sprucelabs/spruce-skill-utils": "^32.0.131",
-    "@sprucelabs/spruce-view-plugin": "^59.0.100"
+    "@sprucelabs/spruce-view-plugin": "^59.0.101"
   }
 }
