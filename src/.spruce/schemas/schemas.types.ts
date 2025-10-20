@@ -127,7 +127,7 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 		interface GenerateUrlEmitTarget {
 			
 				/** Skill View Id. */
-				'skillViewId'?: SkillViewControllerId | undefined | null
+				'skillViewId'?: (SkillViewControllerId) | undefined | null
 		}
 
 		interface GenerateUrlEmitTargetSchema extends SpruceSchema.Schema {
@@ -157,7 +157,7 @@ declare module '@sprucelabs/spruce-core-schemas/build/.spruce/schemas/core.schem
 		interface GenerateUrlEmitPayload {
 			
 				/** Load args. */
-				'args'?: Record<string, any> | undefined | null
+				'args'?: (Record<string, any>) | undefined | null
 		}
 
 		interface GenerateUrlEmitPayloadSchema extends SpruceSchema.Schema {
