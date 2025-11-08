@@ -1,3 +1,8 @@
+## <small>10.0.141 (2025-11-08)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([0e843c2](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/0e843c2))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([be436fc](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/be436fc))
+
 ## <small>10.0.140 (2025-11-08)</small>
 
 * Automated CI/CD permissions update ([a1eea81](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/a1eea81))
