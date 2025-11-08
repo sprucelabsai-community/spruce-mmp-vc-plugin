@@ -1,3 +1,8 @@
+## <small>10.0.140 (2025-11-08)</small>
+
+* Automated CI/CD permissions update ([a1eea81](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/a1eea81))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([e309480](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/e309480))
+
 ## [10.0.139](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v10.0.138...v10.0.139) (2025-10-31)
 
 ## [10.0.138](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/compare/v10.0.137...v10.0.138) (2025-10-31)
