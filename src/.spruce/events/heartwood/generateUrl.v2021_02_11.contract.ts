@@ -9,7 +9,7 @@ const generateUrlEventContract = buildEventContract({
         'heartwood.generate-url::v2021_02_11': {
             isGlobal: true,
             
-            
+            aiInstructions: "Use ths to generate url to a skill view on the platform based on it's SkillViewId, or a full url (https://...). It's important to use this generate url's because the domain is dynamic and can change based on environment. Also, it's good practice to hide this event unless explicitly needed.",
             
             emitPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-generate-url"]},
             
