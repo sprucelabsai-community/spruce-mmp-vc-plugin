@@ -10,6 +10,7 @@ const getActiveThemeEventContract = buildEventContract({
             isGlobal: true,
             
             
+            
             emitPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-get-active-theme"]},
             
             emitPayloadSchema: getActiveThemeEmitTargetAndPayloadSchema,

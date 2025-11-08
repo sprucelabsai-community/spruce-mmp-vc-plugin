@@ -10,6 +10,7 @@ const didRegisterSkillViewsEventContract = buildEventContract({
             
             
             
+            
             listenPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-listen-to-did-register-skill-views"]},
             emitPayloadSchema: didRegisterSkillViewsEmitTargetAndPayloadSchema,
             

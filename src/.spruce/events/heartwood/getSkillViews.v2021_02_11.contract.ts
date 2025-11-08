@@ -10,6 +10,7 @@ const getSkillViewsEventContract = buildEventContract({
             isGlobal: true,
             
             
+            
             emitPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-get-skill-views"]},
             
             emitPayloadSchema: getSkillViewsEmitTargetAndPayloadSchema,

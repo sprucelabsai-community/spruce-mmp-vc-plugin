@@ -9,6 +9,7 @@ const listViewsEventContract = buildEventContract({
             isGlobal: true,
             
             
+            
             emitPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-list-skill-views"]},
             
             

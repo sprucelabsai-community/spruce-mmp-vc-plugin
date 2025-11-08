@@ -10,6 +10,7 @@ const generateUrlEventContract = buildEventContract({
             isGlobal: true,
             
             
+            
             emitPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-generate-url"]},
             
             emitPayloadSchema: generateUrlEmitTargetAndPayloadSchema,

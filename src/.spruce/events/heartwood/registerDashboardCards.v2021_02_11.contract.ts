@@ -9,6 +9,7 @@ const registerDashboardCardsEventContract = buildEventContract({
             isGlobal: true,
             
             
+            
             emitPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-get-skill-views"]},
             listenPermissions: {"contractId":"heartwood.skill-views","permissionIdsAny":["can-register-skill-views"]},
             
