@@ -1,3 +1,7 @@
+## 11.0.0 (2025-11-09)
+
+* major: upgrade ([01cfaf5](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/01cfaf5))
+
 ## <small>10.0.141 (2025-11-08)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([0e843c2](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/0e843c2))
