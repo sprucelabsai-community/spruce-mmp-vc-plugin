@@ -1,3 +1,7 @@
+## <small>11.0.1 (2025-11-09)</small>
+
+* patch: upgrade ([31f91b6](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/31f91b6))
+
 ## 11.0.0 (2025-11-09)
 
 * major: upgrade ([01cfaf5](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/01cfaf5))
