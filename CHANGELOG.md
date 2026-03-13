@@ -1,3 +1,8 @@
+## <small>12.0.20 (2026-03-13)</small>
+
+* chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([4cd064c](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/4cd064c))
+* chore(auto-upgrade): upgraded packages [upgrade-all] ([a7603e8](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/a7603e8))
+
 ## <small>12.0.19 (2026-03-13)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([7e5aa15](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/7e5aa15))
