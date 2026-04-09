@@ -1,3 +1,7 @@
+## <small>12.0.21 (2026-04-09)</small>
+
+* chore: upgrade to TypeScript 6 and fix tsconfig compatibility ([ead111b](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/ead111b))
+
 ## <small>12.0.20 (2026-03-13)</small>
 
 * chore(auto-upgrade): Upgrade Tests Passed [auto-merge] ([4cd064c](https://github.com/sprucelabsai-community/spruce-mmp-vc-plugin/commit/4cd064c))
